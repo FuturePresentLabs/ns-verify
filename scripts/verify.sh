@@ -10,8 +10,13 @@ PATH="$ELAN_HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bi
 export ELAN_HOME PATH
 
 TARGET="${1:-all}"
+MODE="${2:-fresh}"
+case "$MODE" in
+  fresh|resume) ;;
+  *) echo "unknown mode: $MODE (expected fresh|resume)"; exit 64 ;;
+esac
 if [[ "$(id -u)" -eq 0 ]]; then
-  exec sudo -u verifier /opt/lean-verifier/verify.sh "$TARGET"
+  exec sudo -u verifier /opt/lean-verifier/verify.sh "$TARGET" "$MODE"
 fi
 
 STATE_DIR="/var/lib/lean-verification"
@@ -23,7 +28,8 @@ mkdir -p "$WORK_DIR" "$RESULT_DIR/logs"
 chown -R verifier:verifier "$STATE_DIR"
 
 exec > >(tee -a "$RESULT_DIR/driver.log") 2>&1
-echo "run_id=$RUN_ID target=$TARGET scheduler=lake-default cpu_count=$(nproc)"
+echo "run_id=$RUN_ID target=$TARGET mode=$MODE scheduler=lake-default cpu_count=$(nproc)"
+echo "$MODE" > "$RESULT_DIR/build-mode.txt"
 
 case "$TARGET" in
   all|openai|buckmaster-all|buckmaster-euler|buckmaster-boussinesq|buckmaster-affinecore) ;;
@@ -49,13 +55,46 @@ capture_environment() {
 checkout_exact() {
   local name="$1" url="$2" commit="$3" dir
   dir="$WORK_DIR/$name"
-  if [[ ! -d "$dir/.git" ]]; then
-    git clone --no-checkout "$url" "$dir"
+  if [[ "$MODE" = resume ]]; then
+    # Reuse an existing tree instead of wiping its build artifacts. Integrity is
+    # asserted, never assumed: the tree must sit at the exact pinned commit with a
+    # completely clean working tree (no modified tracked files, no stray untracked
+    # sources). Ignored build outputs under .lake are precisely what we reuse.
+    if [[ ! -d "$dir/.git" ]]; then
+      echo "resume: no existing tree at $dir" >&2
+      return 1
+    fi
+    local head_sha tree_status
+    # Capture exit status explicitly. A failing git command yields empty output,
+    # which must never be mistaken for "clean tree" / "matching commit".
+    if ! head_sha="$(git -C "$dir" rev-parse HEAD 2>&1)"; then
+      echo "resume: cannot read HEAD of $dir: $head_sha" >&2
+      return 1
+    fi
+    if [[ "$head_sha" != "$commit" ]]; then
+      echo "resume: $dir is at $head_sha, expected $commit" >&2
+      return 1
+    fi
+    if ! tree_status="$(git -C "$dir" status --porcelain=v1 2>&1)"; then
+      echo "resume: cannot read status of $dir: $tree_status" >&2
+      return 1
+    fi
+    if [[ -n "$tree_status" ]]; then
+      echo "resume: $dir working tree is dirty; refusing to reuse it" >&2
+      printf '%s\n' "$tree_status" >&2
+      return 1
+    fi
+    echo "resume: reusing verified tree $dir at $commit"
+    echo "resume: prebuilt oleans=$(find "$dir" -name '*.olean' | wc -l)"
+  else
+    if [[ ! -d "$dir/.git" ]]; then
+      git clone --no-checkout "$url" "$dir"
+    fi
+    git -C "$dir" fetch --force origin "$commit"
+    git -C "$dir" checkout --detach --force "$commit"
+    git -C "$dir" clean -ffdx
+    test "$(git -C "$dir" rev-parse HEAD)" = "$commit"
   fi
-  git -C "$dir" fetch --force origin "$commit"
-  git -C "$dir" checkout --detach --force "$commit"
-  git -C "$dir" clean -ffdx
-  test "$(git -C "$dir" rev-parse HEAD)" = "$commit"
   git -C "$dir" status --porcelain=v1 > "$RESULT_DIR/${name}-git-status.txt"
   git -C "$dir" show --no-patch --format=fuller HEAD > "$RESULT_DIR/${name}-commit.txt"
   git -C "$dir" bundle create "$RESULT_DIR/${name}-${commit}.bundle" HEAD
