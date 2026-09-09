@@ -1,8 +1,8 @@
 .terraform/
+.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
 *.tfplan
 terraform.tfvars
 results/
 .DS_Store
-

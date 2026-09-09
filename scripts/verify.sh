@@ -99,7 +99,7 @@ if [[ "$TARGET" = all || "$TARGET" = openai ]]; then
   record_project openai "$openai_dir"
   run_step openai-cache "$openai_dir" lake exe cache get || overall=1
   if [[ "$overall" -eq 0 ]]; then
-    run_step openai-build "$openai_dir" lake build -j "$BUILD_JOBS" || overall=1
+    run_step openai-build "$openai_dir" lake -j "$BUILD_JOBS" build || overall=1
   fi
   if [[ -f "$RESULT_DIR/openai-build.json" ]] && [[ "$(jq -r .exit_code "$RESULT_DIR/openai-build.json")" -eq 0 ]]; then
     run_step openai-navier-stokes-axioms "$openai_dir" lake env lean NavierStokes/ComparatorSolution.lean || overall=1
@@ -120,7 +120,7 @@ if [[ "$TARGET" = all || "$TARGET" = buckmaster-all || "$TARGET" == buckmaster-*
     label="buckmaster-${project}"
     record_project "$label" "$project_dir"
     project_ok=0
-    run_step "${label}-build" "$project_dir" lake build -j "$BUILD_JOBS" || { overall=1; project_ok=1; }
+    run_step "${label}-build" "$project_dir" lake -j "$BUILD_JOBS" build || { overall=1; project_ok=1; }
     if [[ "$project_ok" -eq 0 ]]; then
       run_step "${label}-axioms" "$project_dir" lake env lean scripts/PrintAxioms.lean || overall=1
     fi
