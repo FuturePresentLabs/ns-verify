@@ -67,8 +67,8 @@ bundles from runs preserved as an incident record.
 
 | Date | Repo | Pinned SHA | Verdict |
 |---|---|---|---|
-| 2026-09-09 | openai/NavierStokesAndEuler | [`8937a8f`](https://github.com/openai/NavierStokesAndEuler/commit/8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538) | ✅ BUILD_OK — 11,251 jobs, exit 0, axioms = standard trio |
-| 2026-09-09 | tristanbuckmaster/fluid_lean | [`d012468`](https://github.com/tristanbuckmaster/fluid_lean/commit/d0124689230b58b4f86e7b90ac59de06404b3b6b) | ✅ BUILD_OK — euler-blowup, boussinesq-blowup, affinecore; all exit 0, axioms = standard trio |
+| 2026-09-09 | openai/NavierStokesAndEuler | [`8937a8f`](https://github.com/openai/NavierStokesAndEuler/commit/8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538) | ✅ BUILD_OK — 11,251 jobs, exit 0, axioms = standard trio (4 theorems) |
+| 2026-09-09 | tristanbuckmaster/fluid_lean | [`d012468`](https://github.com/tristanbuckmaster/fluid_lean/commit/d0124689230b58b4f86e7b90ac59de06404b3b6b) | ✅ BUILD_OK — euler-blowup, boussinesq-blowup, affinecore; all exit 0, axioms = standard trio (6 theorems) |
 
 Evidence: [`results/20260909T120225Z`](results/20260909T120225Z) (OpenAI) and
 [`results/20260909T153241Z`](results/20260909T153241Z) (Buckmaster). Reviewed
