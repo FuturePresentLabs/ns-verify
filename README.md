@@ -1,5 +1,7 @@
 # ns-verify — Future Present Labs Continuous Verification Bureau
 
+[![verify-evidence](https://github.com/FuturePresentLabs/ns-verify/actions/workflows/verify-evidence.yml/badge.svg)](https://github.com/FuturePresentLabs/ns-verify/actions/workflows/verify-evidence.yml)
+
 *Future Present Labs LLC — a machine shop in Seattle. We don't understand
 analysis, but a proof checker doesn't need us to.*
 
@@ -29,7 +31,8 @@ statement of the Clay problem (used verbatim by the OpenAI repo's comparator) �
 3. `#print axioms <headline theorems>` — must report exactly
    `[propext, Classical.choice, Quot.sound]` (the standard Lean trio; any
    `sorryAx` or custom axiom = fail)
-4. Verdict + full logs committed to [`results/`](results/) and uploaded as CI artifacts
+4. Verdict + full logs committed to [`results/`](results/), with a `SHA256SUMS`
+   manifest generated on the verifying machine
 
 A caveat learned the hard way, in step 2: `lake build` builds a project's
 *default* targets. `affinecore` leaves its comparator pair out of
@@ -81,6 +84,25 @@ Build durations are not comparable across runs: the OpenAI build took 41m57s
 running alone and 1h29m20s in the authoritative bundle, where it shared 16
 cores with a concurrent Buckmaster build.
 
+## What CI does
+
+[`verify-evidence.yml`](.github/workflows/verify-evidence.yml) runs on every push
+and daily. It **does not re-run the proofs** — GitHub-hosted runners are 4 vCPU /
+16 GiB RAM / 14 GiB disk with a 6-hour cap, while this verification peaked at
+~33 GiB resident and ~70 GiB of disk over several hours on a 16 vCPU / 128 GiB
+machine.
+
+What it re-checks, via [`scripts/check-evidence.sh`](scripts/check-evidence.sh):
+manifests generated on the verifying machine still verify, every recorded step
+exited 0, every audited theorem reports exactly the standard trio, no `sorryAx`
+appears, each bundle carries a reviewed audit with no placeholders, and the
+bundles together cover all ten required steps. A green badge means the published
+evidence is intact and internally consistent — it does not mean a runner
+recompiled Mathlib.
+
+Reproducing the actual verification takes a real machine: see `make run` and
+[the runbook](docs/RUNBOOK.md).
+
 ## Scope & honesty
 
 - This verifies **compilations**, not credit claims, not priority disputes.
@@ -105,10 +127,17 @@ that come with proofs instead of contour plots, that's the direction.
 ## The fine print
 
 *Future Present Labs LLC* is a real machine shop that makes real parts.
-Between jobs, its CI also checks Millennium Prize problems. The badge is the
-point:
+Between jobs, it also runs a Lean kernel over Millennium Prize problems and
+publishes the logs.
 
-```yaml
-# add to your README:
-# [![FPL Verification Bureau](https://img.shields.io/badge/kernel%20verified-Future%20Present%20Labs-2ea44f)](https://github.com/FuturePresentLabs/ns-verify)
+If you want to point at a verification, point at the evidence rather than at
+us — a badge that links to a specific pinned commit and its axiom audit is worth
+something; one that links to a vendor is not:
+
+```markdown
+[![kernel verified](https://img.shields.io/badge/kernel%20verified-8937a8f-2ea44f)](https://github.com/FuturePresentLabs/ns-verify/blob/main/audits/20260909T120225Z.md)
 ```
+
+Scope, as always: that badge asserts Lean accepted the pinned source with the
+pinned toolchain and that the axiom audit passed. It asserts nothing about
+whether the formal statement encodes the informal claim.
