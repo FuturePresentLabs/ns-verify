@@ -37,7 +37,11 @@ manifest_hash="$(sha256sum "$result_dir/SHA256SUMS" | awk '{print $1}')"
   echo "## Sorry and error scan"
   echo
   echo '```text'
-  grep -H -E "declaration uses 'sorry'|(^|[^a-z])error:" "$result_dir"/logs/*.log || true
+  # Lean writes: declaration uses `sorry`  (backticks, not straight quotes).
+  # The previous pattern matched straight quotes only, so this scan rendered
+  # empty for every bundle and the audit asserted "no sorry" by omission.
+  # Accept either quoting style so a future Lean change cannot silence it.
+  grep -H -E "declaration uses [\`']sorry[\`']|(^|[^a-z])error:" "$result_dir"/logs/*.log || true
   echo '```'
   echo
   echo "## Reviewer notes"
