@@ -1,7 +1,6 @@
 locals {
   bootstrap = templatefile("${path.module}/cloud-init.yaml.tftpl", {
     ssh_public_key = var.ssh_public_key
-    build_jobs     = var.build_jobs
     verify_script  = base64encode(file("${path.module}/../scripts/verify.sh"))
   })
 }
@@ -52,4 +51,3 @@ resource "digitalocean_firewall" "verifier" {
     destination_addresses = ["0.0.0.0/0", "::/0"]
   }
 }
-

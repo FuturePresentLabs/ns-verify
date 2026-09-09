@@ -51,7 +51,7 @@ ssh verifier@DROPLET_IP \
   'sudo journalctl -u lean-verification -f'
 ```
 
-Allowed selectors are `all`, `openai`, `buckmaster-all`, `buckmaster-euler`, `buckmaster-boussinesq`, and `buckmaster-affinecore`. Runs are sequential to keep peak memory predictable. A failing project is recorded and later independent projects still run.
+Allowed selectors are `all`, `openai`, `buckmaster-all`, `buckmaster-euler`, `buckmaster-boussinesq`, and `buckmaster-affinecore`. Runs are sequential to keep peak memory predictable. Lake uses its default scheduler over the Droplet's available CPUs, matching the upstream build command exactly. A failing project is recorded and later independent projects still run.
 
 Monitor memory, disk, and kernel OOM messages in another terminal:
 

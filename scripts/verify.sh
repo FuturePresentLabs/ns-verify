@@ -9,25 +9,21 @@ ELAN_HOME="/home/verifier/.elan"
 PATH="$ELAN_HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 export ELAN_HOME PATH
 
-# shellcheck disable=SC1091
-[[ -r /etc/lean-verifier.env ]] && source /etc/lean-verifier.env
-
 TARGET="${1:-all}"
 if [[ "$(id -u)" -eq 0 ]]; then
-  exec sudo -u verifier --preserve-env=BUILD_JOBS /opt/lean-verifier/verify.sh "$TARGET"
+  exec sudo -u verifier /opt/lean-verifier/verify.sh "$TARGET"
 fi
 
 STATE_DIR="/var/lib/lean-verification"
 WORK_DIR="$STATE_DIR/work"
 RESULT_ROOT="$STATE_DIR/results"
-BUILD_JOBS="${BUILD_JOBS:-24}"
 RUN_ID="$(date -u +%Y%m%dT%H%M%SZ)"
 RESULT_DIR="$RESULT_ROOT/$RUN_ID"
 mkdir -p "$WORK_DIR" "$RESULT_DIR/logs"
 chown -R verifier:verifier "$STATE_DIR"
 
 exec > >(tee -a "$RESULT_DIR/driver.log") 2>&1
-echo "run_id=$RUN_ID target=$TARGET jobs=$BUILD_JOBS"
+echo "run_id=$RUN_ID target=$TARGET scheduler=lake-default cpu_count=$(nproc)"
 
 case "$TARGET" in
   all|openai|buckmaster-all|buckmaster-euler|buckmaster-boussinesq|buckmaster-affinecore) ;;
@@ -99,7 +95,7 @@ if [[ "$TARGET" = all || "$TARGET" = openai ]]; then
   record_project openai "$openai_dir"
   run_step openai-cache "$openai_dir" lake exe cache get || overall=1
   if [[ "$overall" -eq 0 ]]; then
-    run_step openai-build "$openai_dir" lake -j "$BUILD_JOBS" build || overall=1
+    run_step openai-build "$openai_dir" lake build || overall=1
   fi
   if [[ -f "$RESULT_DIR/openai-build.json" ]] && [[ "$(jq -r .exit_code "$RESULT_DIR/openai-build.json")" -eq 0 ]]; then
     run_step openai-navier-stokes-axioms "$openai_dir" lake env lean NavierStokes/ComparatorSolution.lean || overall=1
@@ -120,7 +116,7 @@ if [[ "$TARGET" = all || "$TARGET" = buckmaster-all || "$TARGET" == buckmaster-*
     label="buckmaster-${project}"
     record_project "$label" "$project_dir"
     project_ok=0
-    run_step "${label}-build" "$project_dir" lake -j "$BUILD_JOBS" build || { overall=1; project_ok=1; }
+    run_step "${label}-build" "$project_dir" lake build || { overall=1; project_ok=1; }
     if [[ "$project_ok" -eq 0 ]]; then
       run_step "${label}-axioms" "$project_dir" lake env lean scripts/PrintAxioms.lean || overall=1
     fi

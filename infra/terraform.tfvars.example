@@ -7,5 +7,3 @@ ssh_public_key = "ssh-ed25519 AAAA... workstation"
 # Safe default for all projects. Verify availability in your chosen region.
 region     = "sfo3"
 size       = "m-24vcpu-192gb"
-build_jobs = 24
-

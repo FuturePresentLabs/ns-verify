@@ -43,14 +43,3 @@ variable "admin_cidr" {
   }
 }
 
-variable "build_jobs" {
-  description = "Lake parallelism. 24 matches the default Droplet."
-  type        = number
-  default     = 24
-
-  validation {
-    condition     = var.build_jobs >= 1 && var.build_jobs <= 64
-    error_message = "build_jobs must be between 1 and 64."
-  }
-}
-

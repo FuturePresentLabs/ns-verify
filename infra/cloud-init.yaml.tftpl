@@ -29,12 +29,6 @@ write_files:
     permissions: '0755'
     encoding: b64
     content: ${verify_script}
-  - path: /etc/lean-verifier.env
-    owner: root:root
-    permissions: '0644'
-    content: |
-      BUILD_JOBS=${build_jobs}
-
 runcmd:
   - [mkdir, -p, /var/lib/lean-verification/results, /var/lib/lean-verification/work]
   - [chown, -R, verifier:verifier, /var/lib/lean-verification]
@@ -42,4 +36,3 @@ runcmd:
   - [tar, -xzf, /tmp/elan.tar.gz, -C, /tmp]
   - [su, -s, /bin/bash, -c, "/tmp/elan-init -y --no-modify-path --default-toolchain none", verifier]
   - [su, -s, /bin/bash, -c, "/home/verifier/.elan/bin/elan --version", verifier]
-
