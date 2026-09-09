@@ -24,7 +24,7 @@ This file is operational context for the currently running verification. It cont
 - DigitalOcean Droplet ID: `598929117`
 - Droplet IP: `64.23.142.33`
 - Region/size: `sfo3`, `m-16vcpu-128gb`
-- The DigitalOcean token exists only in the already-running guarded shell environment. It must not be copied into this repository or logs. Revoke it after teardown.
+- The DigitalOcean token is available to the already-running guarded shell and is also stored locally in the gitignored `.env` file at the workspace root. It must never be committed or copied into logs. Revoke it after teardown, then delete the local `.env` file.
 
 The `make run` wrapper armed its cleanup trap before provisioning. It will download/check the evidence and destroy the Droplet, firewall, and temporary SSH key on normal completion, failure, or ordinary signals. Laptop death, network loss, and `kill -9` cannot execute a local trap, so final DigitalOcean confirmation is mandatory.
 
@@ -84,4 +84,3 @@ Buckmaster `boussinesq-blowup` is building from source in its independent projec
 6. Run `scripts/prepare-audit.sh results/20260909T035008Z`, review every generated claim against logs, and commit the audit only if accurate.
 7. Keep publication gates closed until the independent-confirmation/72-hour condition is satisfied.
 8. Tell the user to revoke the exposed DigitalOcean token after teardown.
-
