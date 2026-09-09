@@ -118,6 +118,22 @@ run_step() {
   return "$status"
 }
 
+# Every lean_lib a project declares in its lakefile. affinecore leaves Challenge
+# and Solution out of defaultTargets, so a bare `lake build` never compiles the
+# comparator pair its own scripts/PrintAxioms.lean imports. euler-blowup and
+# boussinesq-blowup already list both in defaultTargets, so naming every declared
+# library is a no-op for them and the fix for affinecore, without special-casing.
+project_libs() {
+  awk '/^\[\[lean_lib\]\]/ { in_lib = 1; next }
+       in_lib && /^[[:space:]]*name[[:space:]]*=/ {
+         line = $0
+         sub(/^[^"]*"/, "", line)
+         sub(/".*$/, "", line)
+         print line
+         in_lib = 0
+       }' "$1/lakefile.toml"
+}
+
 record_project() {
   local label="$1" directory="$2"
   cp "$directory/lean-toolchain" "$RESULT_DIR/${label}-lean-toolchain.txt"
@@ -155,7 +171,15 @@ if [[ "$TARGET" = all || "$TARGET" = buckmaster-all || "$TARGET" == buckmaster-*
     label="buckmaster-${project}"
     record_project "$label" "$project_dir"
     project_ok=0
-    run_step "${label}-build" "$project_dir" lake build || { overall=1; project_ok=1; }
+    mapfile -t libs < <(project_libs "$project_dir")
+    if [[ "${#libs[@]}" -eq 0 ]]; then
+      echo "no lean_lib targets declared in $project_dir/lakefile.toml" >&2
+      overall=1
+      project_ok=1
+    else
+      echo "building declared libraries for $label: ${libs[*]}"
+      run_step "${label}-build" "$project_dir" lake build "${libs[@]}" || { overall=1; project_ok=1; }
+    fi
     if [[ "$project_ok" -eq 0 ]]; then
       run_step "${label}-axioms" "$project_dir" lake env lean scripts/PrintAxioms.lean || overall=1
     fi
