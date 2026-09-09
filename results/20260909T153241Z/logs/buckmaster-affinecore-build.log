@@ -1,0 +1,2427 @@
+⚠ [8658/9839] Replayed Cm24.Kit
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/Kit.lean:132:38: Variable name `hg` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/Kit.lean:392:58: Variable name `hS` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/Kit.lean:393:5: Variable name `hg` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8660/9839] Replayed Cm24.S2.Oscillatory
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Oscillatory.lean:35:70: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Oscillatory.lean:169:47: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Oscillatory.lean:233:13: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Oscillatory.lean:330:25: `ContinuousLinearMap.sum_apply` has been deprecated: Use `sum_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+⚠ [8661/9839] Replayed Cm24.S2.Profile
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Profile.lean:32:50: Variable name `hij` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8662/9839] Replayed Cm24.S2.Taylor
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:51:20: This simp argument is unused:
+  List.count_cons
+
+Hint: Omit it from the simp argument list.
+  simp [List.count_c̵o̵n̵s̵,̵ ̵L̵i̵s̵t̵.̵c̵o̵u̵n̵t̵_̵append, List.count_replicate]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:279:13: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:279:44: `ContinuousLinearMap.sum_apply` has been deprecated: Use `sum_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:280:4: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:331:48: Variable name `hε` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:371:49: Variable name `hε` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:372:27: Variable name `hfc` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:518:8: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:518:41: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:520:8: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:460:42: Variable name `hε` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:622:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:799:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Taylor.lean:812:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8664/9839] Replayed Cm24.S2.FarField
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/FarField.lean:13:50: Variable name `hN` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/FarField.lean:31:45: Variable name `hN` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/FarField.lean:236:44: Variable name `hε` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/FarField.lean:237:5: Variable name `hab` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8665/9839] Replayed Cm24.S2.Master
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Master.lean:591:40: This simp argument is unused:
+  div_one
+
+Hint: Omit it from the simp argument list.
+  simp only [Theta, kerV, hA, hB, LinearIsometryEquiv.norm_map, hT0, pow_zero, mul_one,
+        Nat.factorial_zero, Nat.cast_one,̵ ̵d̵i̵v̵_̵o̵n̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Master.lean:600:77: This simp argument is unused:
+  div_one
+
+Hint: Omit it from the simp argument list.
+  simp only [hA, Theta, pow_zero, mul_one, Nat.factorial_zero, Nat.cast_one, d̵i̵v̵_̵o̵n̵e̵,̵ ̵zero_mul, one_mul,
+      zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8666/9839] Replayed Cm24.S2.C0Pos
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/C0Pos.lean:801:52: Variable name `hlam` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/C0Pos.lean:801:69: Variable name `hδ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/C0Pos.lean:825:58: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  simp only [Matrix.cons_val_zero, Matrix.cons_val_one, M̵a̵t̵r̵i̵x̵.̵h̵e̵a̵d̵_̵c̵o̵n̵s̵,̵ ̵Matrix.cons_val_fin_one, Real.cos_neg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/C0Pos.lean:930:58: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  simp only [Matrix.cons_val_zero, Matrix.cons_val_one, M̵a̵t̵r̵i̵x̵.̵h̵e̵a̵d̵_̵c̵o̵n̵s̵,̵ ̵Matrix.cons_val_fin_one, sq_abs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8667/9839] Replayed Cm24.S2.Parity
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Parity.lean:16:28: Variable name `hf` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Parity.lean:16:48: Variable name `hfc` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8668/9839] Replayed Cm24.S2.Approx
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Approx.lean:48:43: Variable name `hN` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Approx.lean:308:83: 'push_cast' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Approx.lean:633:62: Variable name `hN` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S2/Approx.lean:633:77: Variable name `hab` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8670/9839] Replayed Cm24.S31.Angle
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/Angle.lean:189:66: This simp argument is unused:
+  Pi.neg_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [Function.comp_apply, Pi.add_apply, Pi.mul_apply,̵ ̵P̵i̵.̵n̵e̵g̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/Angle.lean:529:77: Variable name `hx` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/Angle.lean:583:5: Variable name `hD` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/Angle.lean:583:43: Variable name `hD'` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8672/9839] Replayed Cm24.S32a.L310
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32a/L310.lean:774:5: Variable name `hAm` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32a/L310.lean:1080:55: This simp argument is unused:
+  Matrix.transpose_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [Matrix.mul_apply, Fin.sum_univ_two,̵ ̵M̵a̵t̵r̵i̵x̵.̵t̵r̵a̵n̵s̵p̵o̵s̵e̵_̵a̵p̵p̵l̵y̵] at e0 ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32a/L310.lean:1087:55: This simp argument is unused:
+  Matrix.transpose_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [Matrix.mul_apply, Fin.sum_univ_two,̵ ̵M̵a̵t̵r̵i̵x̵.̵t̵r̵a̵n̵s̵p̵o̵s̵e̵_̵a̵p̵p̵l̵y̵] at e1 ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8673/9839] Replayed Cm24.S31.PolyBounds
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:44:94: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:44:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:44:94: 'omega' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:147:56: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [Finset.sum_const, Finset.card_range, s̵m̵u̵l̵_̵e̵q̵_̵m̵u̵l̵,̵ ̵Nat.cast_add, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:147:69: This simp argument is unused:
+  Nat.cast_add
+
+Hint: Omit it from the simp argument list.
+  simp only [Finset.sum_const, Finset.card_range, smul_eq_mul, Nat.cast_a̵d̵d̵,̵ ̵N̵a̵t̵.̵c̵a̵s̵t̵_̵one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:147:83: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  simp only [Finset.sum_const, Finset.card_range, smul_eq_mul, Nat.cast_add,̵ ̵N̵a̵t̵.̵c̵a̵s̵t̵_̵o̵n̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:149:55: Variable name `hodd` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:150:5: Variable name `hCk` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:150:74: Variable name `hcont` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:152:52: Variable name `hθ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:532:80: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:532:80: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:827:63: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  simp [linMap,̵ ̵M̵a̵t̵r̵i̵x̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:1065:5: Variable name `hΦ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:1185:56: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [Finset.sum_const, Finset.card_range, s̵m̵u̵l̵_̵e̵q̵_̵m̵u̵l̵,̵ ̵Nat.cast_add, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:1185:69: This simp argument is unused:
+  Nat.cast_add
+
+Hint: Omit it from the simp argument list.
+  simp only [Finset.sum_const, Finset.card_range, smul_eq_mul, Nat.cast_a̵d̵d̵,̵ ̵N̵a̵t̵.̵c̵a̵s̵t̵_̵one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S31/PolyBounds.lean:1185:83: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  simp only [Finset.sum_const, Finset.card_range, smul_eq_mul, Nat.cast_add,̵ ̵N̵a̵t̵.̵c̵a̵s̵t̵_̵o̵n̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8676/9839] Replayed Cm24.S32a.Rem9
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32a/Rem9.lean:900:53: Variable name `hβ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8677/9839] Replayed Cm24.S32b.LogEst
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/LogEst.lean:140:51: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/LogEst.lean:278:32: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/LogEst.lean:290:17: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/LogEst.lean:290:48: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/LogEst.lean:291:8: `ContinuousLinearMap.neg_apply` has been deprecated: Use `neg_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `neg_apply x`).
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/LogEst.lean:301:36: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+⚠ [8678/9839] Replayed Cm24.S32b.SolOp
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/SolOp.lean:1405:4: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  simp only [ampRate, ampMain, Gerror, gradErr, ConstructionSetting.gammaRate,
+  ̲  ̲ ̲ ̲ConstructionSetting.Gerror, ConstructionSetting.errVec, ConstructionSetting.Sigma,
+  ̲  ̲ ̲ ̲Matrix.cons_val_zero, M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵o̵n̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵M̵a̵t̵r̵i̵x̵.̵h̵e̵a̵d̵_̵c̵o̵n̵s̵]̵M̲a̲t̲r̲i̲x̲.̲c̲o̲n̲s̲_̲v̲a̲l̲_̲o̲n̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/SolOp.lean:2050:82: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  simp [Matrix.mul_apply, Fin.sum_univ_two, hW,̵ ̵M̵a̵t̵r̵i̵x̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/SolOp.lean:2273:28: This simp argument is unused:
+  SolOpData.transport
+
+Hint: Omit it from the simp argument list.
+  simp only [present, hcoF, S̵o̵l̵O̵p̵D̵a̵t̵a̵.̵t̵r̵a̵n̵s̵p̵o̵r̵t̵,̵ ̵hXf, Pi.mul_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/SolOp.lean:2458:17: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵i̵L̵p̵.̵t̵o̵L̵p̵_̵a̵p̵p̵l̵y̵,̵ ̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵z̵e̵r̵o̵,̵[̲M̲a̲t̲r̲i̲x̲.̲c̲o̲n̲s̲_̲v̲a̲l̲_̲z̲e̲r̲o̲,̲ Matrix.cons_val_one, Matrix.head_cons, one_pow, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/SolOp.lean:2458:77: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  simp only [PiLp.toLp_apply, Matrix.cons_val_zero, Matrix.cons_val_one, M̵a̵t̵r̵i̵x̵.̵h̵e̵a̵d̵_̵c̵o̵n̵s̵,̵one_pow, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/SolOp.lean:2451:6: 'push_cast' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8680/9839] Replayed Cm24.S32b.L315_316
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/L315_316.lean:23:28: This simp argument is unused:
+  List.count_cons
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵L̵i̵s̵t̵.̵c̵o̵u̵n̵t̵_̵c̵o̵n̵s̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8681/9839] Replayed Cm24.S32b.R10Size
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/R10Size.lean:305:31: This simp argument is unused:
+  Nat.add_sub_cancel_left
+
+Hint: Omit it from the simp argument list.
+  simp [SolOpData.coeff,̵ ̵N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵c̵a̵n̵c̵e̵l̵_̵l̵e̵f̵t̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/R10Size.lean:493:31: This simp argument is unused:
+  Nat.add_sub_cancel_left
+
+Hint: Omit it from the simp argument list.
+  simp [SolOpData.coeff,̵ ̵N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵c̵a̵n̵c̵e̵l̵_̵l̵e̵f̵t̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8682/9839] Replayed Cm24.S32b.L317
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/L317.lean:60:81: This simp argument is unused:
+  abs_one
+
+Hint: Omit it from the simp argument list.
+  simp only [hb, Real.norm_eq_abs, abs_mul, zero_mul, add_zero, Real.cos_zero, a̵b̵s̵_̵o̵n̵e̵,̵ ̵mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/L317.lean:66:81: This simp argument is unused:
+  abs_one
+
+Hint: Omit it from the simp argument list.
+  simp only [hb, Real.norm_eq_abs, abs_mul, zero_mul, add_zero, Real.cos_zero, a̵b̵s̵_̵o̵n̵e̵,̵ ̵mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/L317.lean:754:63: Variable name `hℓ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S32b/L317.lean:1120:81: Variable name `hC` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8683/9839] Replayed Cm24.S33.Prelim
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S33/Prelim.lean:283:58: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [Finset.sum_const, Finset.card_range,̵ ̵s̵m̵u̵l̵_̵e̵q̵_̵m̵u̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8685/9839] Replayed Cm24.S4.Contract
+warning: vendor/ChainPlanar/vendor/cm24-r2/Cm24/S4/Contract.lean:36:32: Variable name `f` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8687/9839] Replayed ChainPlanar.Hypotheses
+warning: vendor/ChainPlanar/ChainPlanar/Hypotheses.lean:1256:71: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+warning: vendor/ChainPlanar/ChainPlanar/Hypotheses.lean:1261:23: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+warning: vendor/ChainPlanar/ChainPlanar/Hypotheses.lean:1272:16: This simp argument is unused:
+  ZeroMemClass.coe_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [lerayQ, ContinuousLinearMap.coe_coe, ContinuousLinearMap.coe_comp,
+  ̲  ̲ ̲ ̲ ̲ ̲Function.comp_apply, Submodule.subtypeL_apply, map_sub,
+  ̲  ̲ ̲ ̲ ̲ ̲Submodule.orthogonalProjectionOnto_mem_subspace_eq_self, s̵u̵b̵_̵s̵e̵l̵f̵,̵ ̵Z̵e̵r̵o̵M̵e̵m̵C̵l̵a̵s̵s̵.̵c̵o̵e̵_̵z̵e̵r̵o̵]̵s̲u̲b̲_̲s̲e̲l̲f̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Hypotheses.lean:1550:36: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+⚠ [8688/9839] Replayed ChainPlanar.S4.Objects
+warning: vendor/ChainPlanar/ChainPlanar/S4/Objects.lean:101:66: This simp argument is unused:
+  NNReal.coe_mk
+
+Hint: Omit it from the simp argument list.
+  simp only ̵[̵N̵N̵R̵e̵a̵l̵.̵c̵o̵e̵_̵m̵k̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Objects.lean:160:66: Variable name `ht` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8689/9839] Replayed ChainPlanar.Kit.SmoothODE
+warning: vendor/ChainPlanar/ChainPlanar/Kit/SmoothODE.lean:251:24: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Kit/SmoothODE.lean:510:6: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+⚠ [8690/9839] Replayed ChainPlanar.Kit.Bootstrap
+warning: vendor/ChainPlanar/ChainPlanar/Kit/Bootstrap.lean:46:74: Variable name `hle` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Kit/Bootstrap.lean:134:26: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Kit/Bootstrap.lean:134:57: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Kit/Bootstrap.lean:159:19: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Kit/Bootstrap.lean:159:50: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Kit/Bootstrap.lean:387:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Kit/Bootstrap.lean:910:13: `ContinuousMultilinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Kit/Bootstrap.lean:925:49: `ContinuousMultilinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+⚠ [8692/9839] Replayed ChainPlanar.Kit.ODE
+warning: vendor/ChainPlanar/ChainPlanar/Kit/ODE.lean:118:47: Variable name `hd` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Kit/ODE.lean:118:86: Variable name `hx` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Kit/ODE.lean:155:19: This simp argument is unused:
+  NNReal.coe_mk
+
+Hint: Omit it from the simp argument list.
+  simp only [NNReal.coe_m̵k̵,̵ ̵N̵N̵R̵e̵a̵l̵.̵c̵o̵e̵_̵zero, sub_zero, sub_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Kit/ODE.lean:210:41: Variable name `hx₀` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8694/9839] Replayed ChainPlanar.Lit.PolarLaplace
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:16:25: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:16:25: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [dir, dirPerp, e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:166:13: `ContinuousLinearMap.neg_apply` has been deprecated: Use `neg_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `neg_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:165:82: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  simp only [iteratedFDeriv_two_apply, Matrix.cons_val_zero, Matrix.cons_val_one, M̵a̵t̵r̵i̵x̵.̵h̵e̵a̵d̵_̵c̵o̵n̵s̵,̵
+  ̵ ̵ ̵ ̵ ̵map_neg,
+  ̲  ̲ ̲ ̲ContinuousLinearMap.neg_apply, map_zero, add_zero, neg_neg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:193:23: `ContinuousLinearMap.neg_apply` has been deprecated: Use `neg_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `neg_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:193:54: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:192:82: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  simp only [iteratedFDeriv_two_apply, Matrix.cons_val_zero, Matrix.cons_val_one, M̵a̵t̵r̵i̵x̵.̵h̵e̵a̵d̵_̵c̵o̵n̵s̵,̵
+  ̵ ̵ ̵ ̵ ̵map_neg, map_smul,
+  ̲  ̲ ̲ ̲ContinuousLinearMap.neg_apply, ContinuousLinearMap.smul_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:346:40: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:348:42: `ContinuousMultilinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:372:66: Variable name `hψc` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:506:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:564:15: `MeasureTheory.IntegrableOn.of_forall_diff_eq_zero` has been deprecated: Use `MeasureTheory.IntegrableOn.of_forall_sdiff_eq_zero` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:567:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:638:14: `MeasureTheory.IntegrableOn.of_forall_diff_eq_zero` has been deprecated: Use `MeasureTheory.IntegrableOn.of_forall_sdiff_eq_zero` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/PolarLaplace.lean:641:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8696/9839] Replayed ChainPlanar.Lit.CZ.CZCore.Basic
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Basic.lean:322:91: Variable name `hε` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8697/9839] Replayed ChainPlanar.Lit.CZ.Bogovskii.Operator
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:54:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:158:10: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:393:21: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:575:15: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:576:6: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:574:18: This simp argument is unused:
+  ContinuousLinearMap.smulRight_apply
+
+Hint: Omit it from the simp argument list.
+  simp [bogKer,̵ ̵C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵R̵i̵g̵h̵t̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:654:50: Variable name `hΩ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:1411:50: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:1410:15: This simp argument is unused:
+  Function.comp
+
+Hint: Omit it from the simp argument list.
+  simp only [F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵,̵ ̵EuclideanSpace.coe_proj, bogKer, PiLp.smul_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:1457:50: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:1485:11: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/Operator.lean:1456:15: This simp argument is unused:
+  Function.comp
+
+Hint: Omit it from the simp argument list.
+  simp only [F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵,̵ ̵EuclideanSpace.coe_proj, bogKer, PiLp.smul_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8698/9839] Replayed ChainPlanar.Lit.CZ.CZCore.Dyadic
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Dyadic.lean:436:47: Variable name `hf` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Dyadic.lean:469:7: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Dyadic.lean:549:67: Variable name `ht` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Dyadic.lean:622:71: Variable name `ht` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8699/9839] Replayed ChainPlanar.Lit.CZ.CZCore.Marcinkiewicz
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Marcinkiewicz.lean:91:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Marcinkiewicz.lean:103:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Marcinkiewicz.lean:183:12: This simp argument is unused:
+  Set.indicator_apply
+
+Hint: Omit it from the simp argument list.
+  simp [S̵e̵t̵.̵i̵n̵d̵i̵c̵a̵t̵o̵r̵_̵a̵p̵p̵l̵y̵,̵ ̵h, not_le.mpr h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Marcinkiewicz.lean:184:12: This simp argument is unused:
+  Set.indicator_apply
+
+Hint: Omit it from the simp argument list.
+  simp [S̵e̵t̵.̵i̵n̵d̵i̵c̵a̵t̵o̵r̵_̵a̵p̵p̵l̵y̵,̵ ̵h, not_lt.mp h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Marcinkiewicz.lean:365:65: Variable name `hA₁` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Marcinkiewicz.lean:413:53: Variable name `hA₁` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Marcinkiewicz.lean:518:8: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Marcinkiewicz.lean:611:8: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+⚠ [8700/9839] Replayed ChainPlanar.Lit.CZ.CZCore.WeakType
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:97:13: `MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm` has been deprecated: Use `MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm_toReal` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:160:10: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:165:6: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:167:13: `MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm` has been deprecated: Use `MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm_toReal` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:174:6: `MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm` has been deprecated: Use `MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm_toReal` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:217:6: `MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm` has been deprecated: Use `MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm_toReal` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:218:4: `MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm` has been deprecated: Use `MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm_toReal` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:248:59: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:328:14: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:317:27: Variable name `hB` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:485:27: Variable name `hA` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:575:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:623:27: Variable name `hB` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:711:76: `Set.diff_eq` has been deprecated: Use `Set.sdiff_eq` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:787:56: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/WeakType.lean:875:79: Variable name `hB` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8701/9839] Replayed ChainPlanar.Lit.CZ.CZCore.CotlarStein
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/CotlarStein.lean:55:0: automatically included section variable(s) unused in theorem `NS.Lit.CZ.prod_pairOp_cons`:
+  [CStarRing A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CStarRing A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/CotlarStein.lean:129:0: automatically included section variable(s) unused in theorem `NS.Lit.CZ.sum_mul_star_sum`:
+  [CStarRing A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CStarRing A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/CotlarStein.lean:190:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/CotlarStein.lean:187:42: Variable name `hx` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8702/9839] Replayed ChainPlanar.Lit.CZ.CZCore.ConvL2
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/ConvL2.lean:28:42: Variable name `hK` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/ConvL2.lean:443:6: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/ConvL2.lean:458:27: `MeasureTheory.integrable_finset_sum'` has been deprecated: Use `MeasureTheory.integrable_finsetSum'` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/ConvL2.lean:464:8: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/ConvL2.lean:472:36: `MeasureTheory.integrable_finset_sum'` has been deprecated: Use `MeasureTheory.integrable_finsetSum'` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/ConvL2.lean:473:60: `MeasureTheory.integrable_finset_sum'` has been deprecated: Use `MeasureTheory.integrable_finsetSum'` instead
+⚠ [8703/9839] Replayed ChainPlanar.Lit.CZ.CZCore.Homogeneous
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:289:47: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:291:17: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:514:66: Variable name `hn` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:604:8: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:689:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:706:10: `mul_le_mul_right'` has been deprecated: Use `mul_le_mul_left` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:735:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:845:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:1065:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:1107:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:1661:25: `Int.le_induction` has been deprecated: Use `Int.leInduction` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:1699:49: `mul_le_mul_right'` has been deprecated: Use `mul_le_mul_left` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:1724:44: Variable name `hC` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:1802:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:1965:10: `Set.diff_eq_empty` has been deprecated: Use `Set.sdiff_eq_empty` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:1971:17: `Set.mem_diff` has been deprecated: Use `Set.mem_sdiff` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:2177:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:2196:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:2200:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:2236:14: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:2236:38: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/CZCore/Homogeneous.lean:2236:62: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+⚠ [8705/9839] Replayed ChainPlanar.Lit.CZ.Bogovskii.VariableKernel
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:33:45: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:179:10: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:228:80: Variable name `hF` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:369:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:408:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:496:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:609:15: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:637:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:698:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:771:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:774:39: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:1913:41: `ContinuousLinearMap.sum_apply` has been deprecated: Use `sum_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:1914:4: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:2327:44: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [Function.uncurry,̵ ̵P̵i̵.̵m̵u̵l̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:2413:15: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:2413:46: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:2490:47: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:2568:31: Variable name `hR` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:2759:45: `EuclideanSpace.norm_single` has been deprecated: Use `PiLp.norm_single` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) {ι : Type u_2} (β : ι → Type u_4) [hp : Fact (1 ≤ p)] [inst : Fintype ι]
+    [inst_1 : (i : ι) → SeminormedAddCommGroup (β i)] [inst_2 : DecidableEq ι] (i : ι) (b : β i),
+    ‖PiLp.single p i b‖ = ‖b‖
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] [inst_2 : Fintype ι] (i : ι) (a : 𝕜),
+    ‖EuclideanSpace.single i a‖ = ‖a‖
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.norm_single` to `PiLp.norm_single x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:2666:31: Variable name `hR` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:3082:24: `EuclideanSpace.norm_single` has been deprecated: Use `PiLp.norm_single` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) {ι : Type u_2} (β : ι → Type u_4) [hp : Fact (1 ≤ p)] [inst : Fintype ι]
+    [inst_1 : (i : ι) → SeminormedAddCommGroup (β i)] [inst_2 : DecidableEq ι] (i : ι) (b : β i),
+    ‖PiLp.single p i b‖ = ‖b‖
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] [inst_2 : Fintype ι] (i : ι) (a : 𝕜),
+    ‖EuclideanSpace.single i a‖ = ‖a‖
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.norm_single` to `PiLp.norm_single x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:3127:34: `ContinuousLinearMap.coe_sum'` has been deprecated: Use `FunLike.coe_sum` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_sum'` to `FunLike.coe_sum x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:3250:48: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:3263:50: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/CZ/Bogovskii/VariableKernel.lean:3265:15: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+⚠ [8706/9839] Replayed ChainPlanar.Lit.BogovskiiPiece
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:32:18: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:32:18: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [dir, e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:82:18: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:82:18: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [dir, e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:275:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:338:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:455:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:502:18: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:502:18: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [dir, e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:952:50: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:953:4: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:1440:57: Variable name `hρ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:1551:14: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:1499:57: Variable name `hρ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:1664:6: `ContinuousLinearMap.sum_apply` has been deprecated: Use `sum_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:1802:50: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:1804:26: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:1806:26: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:1808:26: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/BogovskiiPiece.lean:1757:49: Variable name `hρ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8708/9839] Replayed ChainPlanar.Lit.Newtonian
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Newtonian.lean:160:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+⚠ [8709/9839] Replayed ChainPlanar.Lit.Schauder
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:506:50: Variable name `hr` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:581:17: This simp argument is unused:
+  mem_ball_zero_iff
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵m̵e̵m̵_̵b̵a̵l̵l̵_̵z̵e̵r̵o̵_̵i̵f̵f̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:625:37: Variable name `hδ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:767:61: Variable name `hδ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:768:5: Variable name `hh` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:768:25: Variable name `hhc` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:828:35: Variable name `hδ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:829:18: Variable name `hg` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:867:53: Variable name `hα` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:985:34: `Set.diff_subset` has been deprecated: Use `Set.sdiff_subset` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:958:5: Variable name `hxx'` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:1031:18: Variable name `hg` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:1160:33: `Set.diff_subset` has been deprecated: Use `Set.sdiff_subset` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:1366:44: Variable name `hα` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/Lit/Schauder.lean:1540:14: `mul_le_mul_right'` has been deprecated: Use `mul_le_mul_left` instead
+⚠ [8711/9839] Replayed ChainPlanar.Lit.SobolevEmbedding
+warning: vendor/ChainPlanar/ChainPlanar/Lit/SobolevEmbedding.lean:505:8: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/Lit/SobolevEmbedding.lean:519:8: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+⚠ [8713/9839] Replayed ChainPlanar.S0.Lemma02
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:169:65: Variable name `hR` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:230:24: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:396:37: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:518:15: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:518:46: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:746:8: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:770:8: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:791:53: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:857:15: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:857:53: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:924:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:924:44: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:1181:15: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:1181:53: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:1184:15: `mul_le_mul_right'` has been deprecated: Use `mul_le_mul_left` instead
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:1286:20: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:1378:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:1826:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:1823:15: This simp argument is unused:
+  hρ
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵ρ̵,̵ ̵reflOdd, reflOddVec, epd, edt, eψ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:1901:13: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+warning: vendor/ChainPlanar/ChainPlanar/S0/Lemma02.lean:1901:65: `ContinuousLinearMap.neg_apply` has been deprecated: Use `neg_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `neg_apply x`).
+⚠ [8714/9839] Replayed ChainPlanar.S4.Propagator
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:15:35: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:15:35: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:15:35: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [ampGen, e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:43:53: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:45:53: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:43:53: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [e, E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵Real.sqrt_sq_eq_abs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:45:53: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [e, E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵Real.sqrt_sq_eq_abs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:169:10: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:178:10: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:236:35: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:244:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:239:52: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [hG, sub_self, mul_zero, Real.exp_zero, o̵n̵e̵_̵m̵u̵l̵,̵ ̵hns] at h1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:268:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:268:44: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:276:27: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:276:27: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:276:27: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:384:6: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:528:10: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:537:10: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:543:17: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:552:24: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:555:24: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:561:17: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:563:17: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:543:17: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [hZ, e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:561:17: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [e, E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:563:17: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:647:50: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:648:23: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:651:19: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:653:19: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:647:50: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [hΨ, e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:651:19: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:653:19: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [e,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:724:36: Variable name `hsel` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:932:19: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:940:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:959:19: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:967:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:984:19: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:977:69: Variable name `hst` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/S4/Propagator.lean:1040:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8715/9839] Replayed ChainPlanar.S6.Strain
+warning: vendor/ChainPlanar/ChainPlanar/S6/Strain.lean:74:44: Variable name `hξn_ne` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/S6/Strain.lean:88:15: This simp argument is unused:
+  neg_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [n̵e̵g̵_̵a̵p̵p̵l̵y̵,̵ ̵PiLp.sub_apply, PiLp.neg_apply, PiLp.smul_apply,
+  ̵  ̵ ̵ ̵ ̵ ̵smul_eq_mul, unitVec] at h1 ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S6/Strain.lean:603:62: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S6/Strain.lean:646:8: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S6/Strain.lean:647:6: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S6/Strain.lean:635:29: This simp argument is unused:
+  inner_add_right
+
+Hint: Omit it from the simp argument list.
+  simp [hP, hΩe_eq t ht, i̵n̵n̵e̵r̵_̵a̵d̵d̵_̵r̵i̵g̵h̵t̵,̵ ̵inner_smul_right, frame2D_facts_aux_inner_self_perp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8716/9839] Replayed ChainPlanar.S7.Uniqueness
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:53:16: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:286:15: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:286:46: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:405:13: `MeasureTheory.Integrable.bdd_mul'` has been deprecated: Use `MeasureTheory.Integrable.bdd_mul` instead
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:424:17: `MeasureTheory.Integrable.bdd_mul'` has been deprecated: Use `MeasureTheory.Integrable.bdd_mul` instead
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:437:17: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:437:48: `ContinuousLinearMap.coe_smul'` has been deprecated: Use `FunLike.coe_smul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_smul'` to `FunLike.coe_smul x`).
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:267:31: This simp argument is unused:
+  NNReal.coe_mk
+
+Hint: Omit it from the simp argument list.
+  simp only [NNReal.coe_mul,̵ ̵N̵N̵R̵e̵a̵l̵.̵c̵o̵e̵_̵m̵k̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:666:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:725:11: `MeasureTheory.Integrable.bdd_mul'` has been deprecated: Use `MeasureTheory.Integrable.bdd_mul` instead
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:772:47: Variable name `hab` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:823:10: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:1704:5: Variable name `hdiv₁` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:1975:36: Variable name `hT` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:1975:49: Variable name `hB` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:2197:5: Variable name `hfu2` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: vendor/ChainPlanar/ChainPlanar/S7/Uniqueness.lean:2483:5: Variable name `hfθ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8754/9839] Replayed AffineCore.Framework.Cascade.Calculus
+warning: AffineCore/Framework/Cascade/Calculus.lean:153:35: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: AffineCore/Framework/Cascade/Calculus.lean:167:20: `ContinuousLinearMap.coe_neg'` has been deprecated: Use `FunLike.coe_neg` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coe_neg'` to `FunLike.coe_neg x`).
+warning: AffineCore/Framework/Cascade/Calculus.lean:261:27: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+⚠ [8756/9839] Replayed AffineCore.Framework.Cascade.Periodic
+warning: AffineCore/Framework/Cascade/Periodic.lean:186:24: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+warning: AffineCore/Framework/Cascade/Periodic.lean:504:29: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8757/9839] Replayed AffineCore.Framework.Cascade.Classes
+warning: AffineCore/Framework/Cascade/Classes.lean:45:56: Variable name `t` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Classes.lean:327:15: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Classes.lean:417:39: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8758/9839] Replayed AffineCore.Framework.Cascade.ClassesOps
+warning: AffineCore/Framework/Cascade/ClassesOps.lean:65:12: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/ClassesOps.lean:77:94: Variable name `hρ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/ClassesOps.lean:77:120: Variable name `hA` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/ClassesOps.lean:139:4: Variable name `k` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/ClassesOps.lean:206:28: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  simp only [Ltr.vec_t_fst, Ltr.vec_t_snd_fst, Ltr.vec_t_snd_snd, one_mul, zero_mul, ddA_zero,
+          add_zero, mul_zero, z̵e̵r̵o̵_̵a̵d̵d̵,̵ ̵nt_cons, ns_cons, aword_cons_t, Ltr.isT_t, Ltr.isS_t, if_true,
+          Bool.false_eq_true, if_false, tlift, slift, alift, hc', hP', hg', iteratedDeriv_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AffineCore/Framework/Cascade/ClassesOps.lean:213:70: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [Ltr.vec_a_fst, Ltr.vec_a_snd_fst, Ltr.vec_a_snd_snd, o̵n̵e̵_̵m̵u̵l̵,̵ ̵zero_mul,
+  ̵  ̵ ̵ ̵ ̵ ̵ ̵ ̵add_zero, mul_zero,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲zero_add, nt_cons, ns_cons, aword_cons_a, Ltr.isT_a, Ltr.isS_a,
+  ̵  ̵ ̵ ̵ ̵ ̵ ̵ ̵Bool.false_eq_true,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲if_false, tlift, slift, alift, hc', hP', hg', iterA_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8760/9839] Replayed AffineCore.Framework.Cascade.Operators
+warning: AffineCore/Framework/Cascade/Operators.lean:140:19: Variable name `k` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Operators.lean:140:32: Variable name `l` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Operators.lean:193:16: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ENNReal) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: AffineCore/Framework/Cascade/Operators.lean:183:31: This simp argument is unused:
+  show [m] = m :: [] from rfl
+
+Hint: Omit it from the simp argument list.
+  simp only [coordL_apply, s̵h̵o̵w̵ ̵[̵m̵]̵ ̵=̵ ̵m̵ ̵:̵:̵ ̵[̵]̵ ̵f̵r̵o̵m̵ ̵r̵f̵l̵,̵ ̵Frame.wcost_cons, Frame.wcost_nil, mul_one, one_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AffineCore/Framework/Cascade/Operators.lean:184:17: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [coordL_apply, show [m] = m :: [] from rfl, Frame.wcost_cons, Frame.wcost_nil,
+          mul_one,̵ ̵o̵n̵e̵_̵m̵u̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AffineCore/Framework/Cascade/Operators.lean:193:16: This simp argument is unused:
+  EuclideanSpace.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hkl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AffineCore/Framework/Cascade/Operators.lean:229:52: Variable name `l` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8761/9839] Replayed AffineCore.Framework.Cascade.Duhamel
+warning: AffineCore/Framework/Cascade/Duhamel.lean:36:9: Variable name `τ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Duhamel.lean:102:123: Variable name `hF` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Duhamel.lean:293:29: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Duhamel.lean:303:39: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Duhamel.lean:453:31: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+warning: AffineCore/Framework/Cascade/Duhamel.lean:530:18: `EuclideanSpace.norm_single` has been deprecated: Use `PiLp.norm_single` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ENNReal) {ι : Type u_2} (β : ι → Type u_4) [hp : Fact (1 ≤ p)] [inst : Fintype ι]
+    [inst_1 : (i : ι) → SeminormedAddCommGroup (β i)] [inst_2 : DecidableEq ι] (i : ι) (b : β i),
+    ‖PiLp.single p i b‖ = ‖b‖
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] [inst_2 : Fintype ι] (i : ι) (a : 𝕜),
+    ‖EuclideanSpace.single i a‖ = ‖a‖
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.norm_single` to `PiLp.norm_single x`).
+warning: AffineCore/Framework/Cascade/Duhamel.lean:532:18: `EuclideanSpace.norm_single` has been deprecated: Use `PiLp.norm_single` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ENNReal) {ι : Type u_2} (β : ι → Type u_4) [hp : Fact (1 ≤ p)] [inst : Fintype ι]
+    [inst_1 : (i : ι) → SeminormedAddCommGroup (β i)] [inst_2 : DecidableEq ι] (i : ι) (b : β i),
+    ‖PiLp.single p i b‖ = ‖b‖
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] [inst_2 : Fintype ι] (i : ι) (a : 𝕜),
+    ‖EuclideanSpace.single i a‖ = ‖a‖
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.norm_single` to `PiLp.norm_single x`).
+warning: AffineCore/Framework/Cascade/Duhamel.lean:530:18: This simp argument is unused:
+  EuclideanSpace.norm_single
+
+Hint: Omit it from the simp argument list.
+  simp [Ltr.ea,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵n̵o̵r̵m̵_̵s̵i̵n̵g̵l̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AffineCore/Framework/Cascade/Duhamel.lean:532:18: This simp argument is unused:
+  EuclideanSpace.norm_single
+
+Hint: Omit it from the simp argument list.
+  simp [Ltr.ea,̵ ̵E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵n̵o̵r̵m̵_̵s̵i̵n̵g̵l̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8762/9839] Replayed AffineCore.Framework.Cascade.PropagatorExists
+warning: AffineCore/Framework/Cascade/PropagatorExists.lean:57:6: Variable name `t` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8764/9839] Replayed AffineCore.Framework.Cascade.Coefficients
+warning: AffineCore/Framework/Cascade/Coefficients.lean:96:13: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵i̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵,̵ ̵s̵m̵u̵l̵_̵e̵q̵_̵m̵u̵l̵,̵[̲s̲m̲u̲l̲_̲e̲q̲_̲m̲u̲l̲,̲ abs_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AffineCore/Framework/Cascade/Coefficients.lean:120:50: Variable name `ha` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Coefficients.lean:120:63: Variable name `ha'` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8765/9839] Replayed AffineCore.Framework.Cascade.AmpMatrix
+warning: AffineCore/Framework/Cascade/AmpMatrix.lean:33:33: `EuclideanSpace.norm_single` has been deprecated: Use `PiLp.norm_single` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ENNReal) {ι : Type u_2} (β : ι → Type u_4) [hp : Fact (1 ≤ p)] [inst : Fintype ι]
+    [inst_1 : (i : ι) → SeminormedAddCommGroup (β i)] [inst_2 : DecidableEq ι] (i : ι) (b : β i),
+    ‖PiLp.single p i b‖ = ‖b‖
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] [inst_2 : Fintype ι] (i : ι) (a : 𝕜),
+    ‖EuclideanSpace.single i a‖ = ‖a‖
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.norm_single` to `PiLp.norm_single x`).
+warning: AffineCore/Framework/Cascade/AmpMatrix.lean:33:33: This simp argument is unused:
+  EuclideanSpace.norm_single
+
+Hint: Omit it from the simp argument list.
+  simp [norm_smul, Ltr.ea, E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵n̵o̵r̵m̵_̵s̵i̵n̵g̵l̵e̵,̵ ̵abs_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AffineCore/Framework/Cascade/AmpMatrix.lean:33:61: This simp argument is unused:
+  abs_mul
+
+Hint: Omit it from the simp argument list.
+  simp [norm_smul, Ltr.ea, EuclideanSpace.norm_single,̵ ̵a̵b̵s̵_̵m̵u̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8766/9839] Replayed AffineCore.Framework.Cascade.Parity
+warning: AffineCore/Framework/Cascade/Parity.lean:64:15: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+warning: AffineCore/Framework/Cascade/Parity.lean:78:8: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵s̵m̵u̵l̵_̵s̵m̵u̵l̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AffineCore/Framework/Cascade/Parity.lean:194:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: AffineCore/Framework/Cascade/Parity.lean:218:18: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Parity.lean:218:33: Variable name `τ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Parity.lean:218:35: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Parity.lean:221:18: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Parity.lean:221:33: Variable name `τ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Parity.lean:221:35: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Cascade/Parity.lean:242:33: This simp argument is unused:
+  NNReal.coe_mk
+
+Hint: Omit it from the simp argument list.
+  simp only [coe_nnnorm, hK,̵ ̵N̵N̵R̵e̵a̵l̵.̵c̵o̵e̵_̵m̵k̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8769/9839] Replayed AffineCore.Framework.Cascade.Levels
+warning: AffineCore/Framework/Cascade/Levels.lean:74:37: Variable name `h` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9026/9839] Replayed AffineCore.Framework.Skeleton.StageAux.HitsFromBoxes
+warning: AffineCore/Framework/Skeleton/StageAux/HitsFromBoxes.lean:51:81: Variable name `hz2` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/HitsFromBoxes.lean:133:36: Variable name `hz2` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9027/9839] Replayed AffineCore.Framework.Skeleton.StageAux.GrowthAcoefCeiling
+warning: AffineCore/Framework/Skeleton/StageAux/GrowthAcoefCeiling.lean:21:36: Variable name `hz2` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9107/9839] Replayed AffineCore.Framework.Skeleton.StageAux.FamilyDict
+warning: AffineCore/Framework/Skeleton/StageAux/FamilyDict.lean:119:57: Variable name `hW` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9108/9839] Replayed AffineCore.Construction.LemmaS.StepGRunAux
+warning: AffineCore/Construction/LemmaS/StepGRunAux.lean:112:48: Variable name `hW` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9165/9839] Replayed AffineCore.Construction.TheoremA.Prop420Pi6Aux
+warning: AffineCore/Construction/TheoremA/Prop420Pi6Aux.lean:66:5: Variable name `hcU` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Construction/TheoremA/Prop420Pi6Aux.lean:66:52: Variable name `hGm0` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9181/9839] Replayed AffineCore.Framework.Ladder.ReadoutRun
+warning: AffineCore/Framework/Ladder/ReadoutRun.lean:1361:49: Variable name `hO` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9182/9839] Replayed AffineCore.Framework.Ladder.RowV1
+warning: AffineCore/Framework/Ladder/RowV1.lean:253:11: `le_of_eq_of_le'` has been deprecated: Use `le_of_le_of_eq` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Type u_1} {a b c : α} [inst : LE α], a ≤ b → b = c → a ≤ c
+instead of
+  ∀ {α : Type u_2} [inst : LE α] {a b c : α}, b = c → a ≤ b → a ≤ c
+⚠ [9184/9839] Replayed AffineCore.Framework.Ladder.RowV34
+warning: AffineCore/Framework/Ladder/RowV34.lean:79:33: Variable name `H` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9185/9839] Replayed AffineCore.Framework.Ladder.RowV567
+warning: AffineCore/Framework/Ladder/RowV567.lean:13:33: Variable name `H` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Ladder/RowV567.lean:26:36: Variable name `H` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Ladder/RowV567.lean:41:36: Variable name `H` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9186/9839] Replayed AffineCore.Framework.Ladder.StrainFrame
+warning: AffineCore/Framework/Ladder/StrainFrame.lean:479:55: Variable name `A` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9253/9839] Replayed AffineCore.Framework.Skeleton.StageAux.GExpansionArith
+warning: AffineCore/Framework/Skeleton/StageAux/GExpansionArith.lean:58:81: Variable name `hb'` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GExpansionArith.lean:97:35: Variable name `hK30` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GExpansionArith.lean:112:68: Variable name `hs` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GExpansionArith.lean:144:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [9262/9839] Replayed AffineCore.Framework.Skeleton.StageAux.GExpansionWindowAk
+warning: AffineCore/Framework/Skeleton/StageAux/GExpansionWindowAk.lean:25:5: Variable name `hA` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9287/9839] Replayed AffineCore.Framework.Skeleton.StageAux.Stage1Hloc
+warning: AffineCore/Framework/Skeleton/StageAux/Stage1Hloc.lean:11:9: Variable name `n` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/Stage1Hloc.lean:11:11: Variable name `t` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9310/9839] Replayed AffineCore.Framework.Skeleton.StageAux.GenGrowthPlanting
+warning: AffineCore/Framework/Skeleton/StageAux/GenGrowthPlanting.lean:41:33: Variable name `W` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GenGrowthPlanting.lean:41:35: Variable name `L` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GenGrowthPlanting.lean:41:37: Variable name `P` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GenGrowthPlanting.lean:41:39: Variable name `ε` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GenGrowthPlanting.lean:41:41: Variable name `εs` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GenGrowthPlanting.lean:41:44: Variable name `N1` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GenGrowthPlanting.lean:41:47: Variable name `k` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GenGrowthPlanting.lean:41:49: Variable name `n` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9324/9839] Replayed AffineCore.Framework.Skeleton.StageAux.GenUpToWloop
+warning: AffineCore/Framework/Skeleton/StageAux/GenUpToWloop.lean:482:37: Variable name `hst` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/GenUpToWloop.lean:595:43: Variable name `hst` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9334/9839] Replayed AffineCore.Framework.Skeleton.StageAux.Lem413bCore
+warning: AffineCore/Framework/Skeleton/StageAux/Lem413bCore.lean:119:22: Variable name `hz2` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9340/9839] Replayed AffineCore.Framework.Skeleton.StageAux.TrackLettersRate
+warning: AffineCore/Framework/Skeleton/StageAux/TrackLettersRate.lean:437:42: Variable name `hst` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: AffineCore/Framework/Skeleton/StageAux/TrackLettersRate.lean:637:31: Variable name `hsc` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9365/9839] Replayed AffineCore.Framework.Skeleton.StageAux.ScheduleItemsS1
+warning: AffineCore/Framework/Skeleton/StageAux/ScheduleItemsS1.lean:937:61: This simp argument is unused:
+  hj1
+
+Hint: Omit it from the simp argument list.
+  simp [steerWeight, tiltAmpAlong, tiltAmplitude, stageTilt, hj1̵,̵ ̵h̵j̵le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9490/9839] Replayed AffineCore.Proofs.R05.lemS_gen_recoverS_lower_rec_n9
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:32:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:48:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:103:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:105:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:103:6: '(simp only [Skeleton.StageAux.BoxesGeneric.steerList, List.get_eq_getElem, List.cons_append, List.getElem_cons_succ,
+    List.getElem_cons_zero];
+  done)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:105:6: 'simp [Skeleton.StageAux.BoxesGeneric.steerList]' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:116:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:118:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:116:6: '(simp only [Skeleton.StageAux.BoxesGeneric.steerList, List.get_eq_getElem, List.cons_append, List.getElem_cons_succ,
+    List.getElem_cons_zero];
+  done)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:118:6: 'simp [Skeleton.StageAux.BoxesGeneric.steerList]' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:128:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:129:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:127:55: 'done' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:128:6: 'rfl' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:129:6: 'simp [Skeleton.StageAux.BoxesGeneric.spec_chiRatioSharp,
+  Skeleton.StageAux.BoxesGeneric.spec_chiRatio]' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:142:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:143:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:144:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:138:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:141:68: 'done' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:142:6: '(rw [hcS] <;> rfl)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:143:6: 'rfl' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:144:6: '(rw [hcS] <;>
+    simp [Skeleton.StageAux.BoxesGeneric.spec_chiRatioSharp, Skeleton.StageAux.BoxesGeneric.spec_chiRatio,
+      Skeleton.StageAux.BoxesGeneric.SteerBoxConsts.ofLetters])' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:169:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_lower_rec_n9.lean:169:6: '(rw [hlo, hf]; exact h7c)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9493/9839] Replayed AffineCore.Proofs.R05.lemS_gen_recoverS_upper_rec_n10
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:11:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:21:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:43:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:42:26: 'done' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:43:6: '(rw [List.getElem?_eq_getElem hn, List.getElem?_eq_getElem hn'] at hopt; simpa using hopt)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:80:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:81:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:80:6: '(simp only [Skeleton.StageAux.BoxesGeneric.spec_WnormSharp]; exact hb)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:81:6: '(unfold Skeleton.StageAux.BoxesGeneric.spec_WnormSharp; dsimp only; exact hb)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:97:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:98:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:97:6: '(simp only [Skeleton.StageAux.BoxesGeneric.spec_Wnorm] at hy; exact hy)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n10.lean:98:6: '(unfold Skeleton.StageAux.BoxesGeneric.spec_Wnorm at hy; dsimp only at hy; exact hy)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9500/9839] Replayed AffineCore.Proofs.R05.lemS_gen_recoverS_upper_rec_n9
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:28:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:28:4: 'rw [hij]' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:37:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:37:4: 'rw [hij]' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:51:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:52:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:53:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:51:4: '(unfold Skeleton.StageAux.BoxesGeneric.steerList; rfl)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:52:4: '(simp [Skeleton.StageAux.BoxesGeneric.steerList])' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:53:4: '(
+  unfold Skeleton.StageAux.BoxesGeneric.steerList
+  simp only [List.get_eq_getElem, List.cons_append, List.getElem_cons_succ,
+    List.getElem_cons_zero])' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:73:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:74:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:75:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:73:4: '(unfold Skeleton.StageAux.BoxesGeneric.steerList; rfl)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:74:4: '(simp [Skeleton.StageAux.BoxesGeneric.steerList])' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:75:4: '(
+  unfold Skeleton.StageAux.BoxesGeneric.steerList
+  simp only [List.get_eq_getElem, List.cons_append, List.getElem_cons_succ,
+    List.getElem_cons_zero])' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:94:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:95:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:96:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:94:4: '(unfold Skeleton.StageAux.BoxesGeneric.SteerBoxConsts.ofLetters; rfl)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:95:4: '(simp only [Skeleton.StageAux.BoxesGeneric.SteerBoxConsts.ofLetters])' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:96:4: '(
+  unfold Skeleton.StageAux.BoxesGeneric.SteerBoxConsts.ofLetters
+  dsimp only
+  ring)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:105:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:107:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:105:4: '(unfold Skeleton.StageAux.BoxesGeneric.spec_chiRatioSharp Skeleton.StageAux.BoxesGeneric.spec_chiRatio;
+  rfl)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:107:4: '(
+  funext y
+  simp only [Skeleton.StageAux.BoxesGeneric.spec_chiRatioSharp,
+    Skeleton.StageAux.BoxesGeneric.spec_chiRatio])' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:118:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:119:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:124:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:125:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:118:6: '(unfold Skeleton.StageAux.BoxesGeneric.spec_chiRatioSharp; rfl)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:119:6: '(simp [Skeleton.StageAux.BoxesGeneric.spec_chiRatioSharp]; done)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:124:6: '(unfold Skeleton.StageAux.BoxesGeneric.spec_chiRatio; rfl)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:125:6: '(simp [Skeleton.StageAux.BoxesGeneric.spec_chiRatio]; done)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:145:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:147:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:145:4: '(
+  rw [hd.hcSeq] at key ⊢
+  exact key)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: AffineCore/Proofs/R05/lemS_gen_recoverS_upper_rec_n9.lean:147:4: '(
+  unfold Skeleton.StageAux.BoxesGeneric.spec_chiRatioSharp
+  unfold Skeleton.StageAux.BoxesGeneric.spec_chiRatio at key
+  try dsimp only at key
+  try dsimp only
+  rw [lemS_gen_recoverS_upper_rec_n9.aux.ceil_eq_S9 d hd]
+  exact key)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+ℹ [9674/9839] Replayed AffineCore.Proofs.R06.prop_4_11_V5_Sl
+info: AffineCore/Proofs/R06/prop_4_11_V5_Sl.lean:100:0: Error in Linarith.normalizeDenominatorsLHS: Expr.rewrite may not produce subgoals.
+⚠ [9777/9839] Replayed AffineCore.Proofs.R01.holds_inhabited
+warning: AffineCore/Proofs/R01/holds_inhabited.lean:64:26: This simp argument is unused:
+  le_max_right
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵l̵e̵_̵m̵a̵x̵_̵r̵i̵g̵h̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AffineCore/Proofs/R01/holds_inhabited.lean:69:26: This simp argument is unused:
+  le_max_right
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵l̵e̵_̵m̵a̵x̵_̵r̵i̵g̵h̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9832/9839] Built Cm24 (5.2s)
+✔ [9834/9839] Built ChainPlanar (5.2s)
+✔ [9836/9839] Built Solution (5.8s)
+⚠ [9838/9839] Built Challenge (7.2s)
+warning: Challenge.lean:270:8: declaration uses `sorry`
+Build completed successfully (9839 jobs).
+	Command being timed: "lake build Cm24 ChainPlanar AffineCore Challenge Solution"
+	User time (seconds): 28.20
+	System time (seconds): 10.63
+	Percent of CPU this job got: 243%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7324972
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 8
+	Minor (reclaiming a frame) page faults: 836969
+	Voluntary context switches: 94268
+	Involuntary context switches: 3389
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 47848
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

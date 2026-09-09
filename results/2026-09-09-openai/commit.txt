@@ -1,1 +1,0 @@
-PENDING-IMPORT: pinned SHA to be filled from the verification run metadata
