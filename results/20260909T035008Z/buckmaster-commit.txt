@@ -1,0 +1,11 @@
+commit d0124689230b58b4f86e7b90ac59de06404b3b6b
+Author:     tristanbuckmaster <108429921+tristanbuckmaster@users.noreply.github.com>
+AuthorDate: Tue Sep 8 00:07:52 2026 -0400
+Commit:     tristanbuckmaster <108429921+tristanbuckmaster@users.noreply.github.com>
+CommitDate: Tue Sep 8 00:07:52 2026 -0400
+
+    Add affinecore, boussinesq-blowup, and euler-blowup Lean projects
+    
+    Imported from lean1.zip, lean2.zip, and lean3.zip.
+    
+    Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>

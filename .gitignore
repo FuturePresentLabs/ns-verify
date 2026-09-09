@@ -4,6 +4,11 @@
 *.tfstate.*
 *.tfplan
 terraform.tfvars
-results/
+results/*
+!results/20260909T035008Z/
+!results/20260909T114443Z/
+!results/20260909T120225Z/
+!results/20260909T153241Z/
+!results/README.md
 .DS_Store
 .env

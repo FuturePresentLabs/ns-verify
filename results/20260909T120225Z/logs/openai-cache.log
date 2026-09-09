@@ -1,0 +1,72 @@
+info: Comparator: cloning https://github.com/leanprover/comparator.git
+info: Comparator: checking out revision '19e111e2141cf333c7daff0f64c5f24acc91dd2e'
+info: mathlib: cloning https://github.com/leanprover-community/mathlib4.git
+info: mathlib: checking out revision '85e3a25e006c35636f0e53b0e9296caca2685bc0'
+info: lean4export: cloning https://github.com/leanprover/lean4export
+info: lean4export: checking out revision 'cacf989bd75f608700820f6afc595f32e7a99a4d'
+info: plausible: cloning https://github.com/leanprover-community/plausible
+info: plausible: checking out revision 'd9598f07b1bc701f1e3aae163d2681c1fd978793'
+info: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient
+info: LeanSearchClient: checking out revision 'ba67e212be1197b84c1f1f6299488a10a3002713'
+info: importGraph: cloning https://github.com/leanprover-community/import-graph
+info: importGraph: checking out revision 'd8823026ac7ef130c253089d95685f9877b95323'
+info: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4
+info: proofwidgets: checking out revision 'a8acbfd87375ff4abe14ce09db5b7664d383bc7f'
+info: aesop: cloning https://github.com/leanprover-community/aesop
+info: aesop: checking out revision '18889deb9e83ea7420ef51c160d6f88552e744e3'
+info: Qq: cloning https://github.com/leanprover-community/quote4
+info: Qq: checking out revision '507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3'
+info: batteries: cloning https://github.com/leanprover-community/batteries
+info: batteries: checking out revision 'd54dddc581e08be364c278052863524bff7a99a9'
+info: Cli: cloning https://github.com/leanprover/lean4-cli
+info: Cli: checking out revision 'ab3a82db9fea14cf0fd7f5a2de650f4b534640af'
+✔ [2/6] Built Cache.Cli (645ms)
+✔ [3/6] Built Cache.Lean (780ms)
+✔ [9/27] Built Cache.Cli:c.o (260ms)
+✔ [10/27] Built Cache.Lean:c.o (303ms)
+✔ [11/27] Built Cache.Infra (781ms)
+✔ [12/27] Built Cache.Infra:c.o (501ms)
+✔ [13/27] Built Cache.IO (2.6s)
+✔ [14/27] Built Cache.Hashing (1.5s)
+✔ [15/27] Built Cache.Hashing:c.o (773ms)
+✔ [16/27] Built Cache.IO:c.o (3.1s)
+✔ [17/27] Built Cache.Requests (3.7s)
+✔ [18/27] Built Cache.Marker (1.2s)
+✔ [19/27] Built Cache.Marker:c.o (253ms)
+✔ [20/27] Built Cache.Query (1.4s)
+✔ [21/27] Built Cache.Query:c.o (628ms)
+✔ [22/27] Built Cache.Warning (1.4s)
+✔ [23/27] Built Cache.Warning:c.o (504ms)
+✔ [24/27] Built Cache.Requests:c.o (5.7s)
+✔ [25/27] Built Cache.Main (2.5s)
+✔ [26/27] Built Cache.Main:c.o (2.1s)
+✔ [27/27] Built cache:exe (1.4s)
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+Decompressing 8557 already-cached file(s) (190 already decompressed)
+No files to download
+Decompressed 8557 already-cached file(s)
+Completed successfully in 46252 ms!
+	Command being timed: "lake exe cache get"
+	User time (seconds): 226.25
+	System time (seconds): 89.91
+	Percent of CPU this job got: 207%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:32.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1018392
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 26
+	Minor (reclaiming a frame) page faults: 4973286
+	Voluntary context switches: 2117876
+	Involuntary context switches: 145153
+	Swaps: 0
+	File system inputs: 176
+	File system outputs: 16543752
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
