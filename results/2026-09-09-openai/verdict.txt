@@ -1,0 +1,6 @@
+VERDICT: BUILD_OK
+build_jobs: 11251
+duration: 41m57s
+axioms: [propext, Classical.choice,Quot.sound] for all four headline theorems
+sorries: 4 (deliberate Comparator challenge statements only)
+note: full log imported from verification run; see commit.txt
