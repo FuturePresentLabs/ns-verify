@@ -1,9 +1,9 @@
-# ns-verify — Wagar Machine LLC Continuous Verification Bureau
+# ns-verify — Future Present Labs Continuous Verification Bureau
 
-*A machine shop in Seattle. We don't understand analysis, but a proof checker
-doesn't need us to.*
+*Future Present Labs LLC — a machine shop in Seattle. We don't understand
+analysis, but a proof checker doesn't need us to.*
 
-This repo runs **independent Lean kernel verification** of the two 2026
+This repository runs **independent Lean kernel verification** of the two 2026
 Navier–Stokes / Euler resolution repositories, at pinned upstream commits,
 **unmodified**:
 
@@ -15,11 +15,11 @@ Navier–Stokes / Euler resolution repositories, at pinned upstream commits,
 ## Why this is evidence
 
 A Lean build is **binary**: either every proof compiles through Lean 4's
-kernel or it does not. We are not mathematicians — that's the point. The
-kernel re-checks every proof obligation, including the interval-arithmetic
-certificates, so trust flows from the toolchain + [DeepMind's
-FormalConjectures](https://github.com/google-deepmind/formal-conjectures)
-statement of the Clay problem (used verbatim by the OpenAI repo's comparator),
+kernel, or it does not. We are machinists, not mathematicians — that's the
+point. The kernel re-checks every proof obligation, including the
+interval-arithmetic certificates, so trust flows from the toolchain and from
+[DeepMind's FormalConjectures](https://github.com/google-deepmind/formal-conjectures)
+statement of the Clay problem (used verbatim by the OpenAI repo's comparator) —
 **not** from anyone's credentials. Ours or theirs.
 
 ## Method
@@ -56,16 +56,24 @@ See [`results/`](results/) — one directory per verification run, containing
 - This verifies **compilations**, not credit claims, not priority disputes.
 - The axiom audit verifies the formalization *as written in the pinned repo*
   against the Clay statement *as encoded by DeepMind's FormalConjectures*.
-  The kernel→formal-statement→human-statement chain is documented, not divine.
-- If a build fails, we publish that immediately and deadpan. First honest
-  failure report beats any joke.
+  The kernel → formal-statement → human-statement chain is documented, not divine.
+- If a build fails, we publish that immediately and without commentary.
+  An honest failure report is worth more than a clean joke.
+
+## Verification, not certification-for-hire (yet)
+
+Future Present Labs machines parts. The same discipline behind this repo —
+provably conservative margins from the shop that machines the parts — is the
+product thesis of our certified-simulation work. If you need stress margins
+that come with proofs instead of contour plots, that's the direction.
 
 ## The fine print
 
-*"Wagar Machine LLC"* is a real machine shop that makes real parts. Between
-jobs, its CI also checks Millennium Prize problems. The badge is the point:
+*Future Present Labs LLC* is a real machine shop that makes real parts.
+Between jobs, its CI also checks Millennium Prize problems. The badge is the
+point:
 
 ```yaml
 # add to your README:
-# [![Wagar Machine Verification Bureau](https://img.shields.io/badge/kernel%20verified-Wagar%20Machine%20LLC-2ea44f)](https://github.com/ajmwagar/ns-verify)
+# [![FPL Verification Bureau](https://img.shields.io/badge/kernel%20verified-Future%20Present%20Labs-2ea44f)](https://github.com/FuturePresentLabs/ns-verify)
 ```
