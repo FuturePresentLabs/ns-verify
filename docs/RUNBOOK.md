@@ -87,6 +87,15 @@ Required publication evidence:
 - `SHA256SUMS`, verified after download.
 - A clear list of anything not run, especially Comparator.
 
+Generate the tracked axiom/warning audit after reviewing the raw logs:
+
+```sh
+scripts/prepare-audit.sh results/RUN_ID
+# Review and replace every REPLACE_ME, then commit audits/RUN_ID.md.
+```
+
+Success publication remains blocked until the audit is committed and either a respected independent confirmation or a mechanically valid 72-hour no-refutation record is committed. See `docs/TRACK-1.md` and run `scripts/check-publish-gates.sh`.
+
 ## 5. Confirm teardown
 
 `make run` already destroys and verifies empty Terraform state. Confirm independently:

@@ -101,6 +101,10 @@ if [[ "$TARGET" = all || "$TARGET" = openai ]]; then
   if [[ "$overall" -eq 0 ]]; then
     run_step openai-build "$openai_dir" lake build -j "$BUILD_JOBS" || overall=1
   fi
+  if [[ -f "$RESULT_DIR/openai-build.json" ]] && [[ "$(jq -r .exit_code "$RESULT_DIR/openai-build.json")" -eq 0 ]]; then
+    run_step openai-navier-stokes-axioms "$openai_dir" lake env lean NavierStokes/ComparatorSolution.lean || overall=1
+    run_step openai-euler-axioms "$openai_dir" lake env lean Euler/Solution.lean || overall=1
+  fi
 fi
 
 if [[ "$TARGET" = all || "$TARGET" = buckmaster-all || "$TARGET" == buckmaster-* ]]; then

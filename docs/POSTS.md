@@ -1,6 +1,6 @@
 # Verification post templates
 
-Publish only after checking the downloaded bundle. Replace every `{{PLACEHOLDER}}`; if a step was not run, say so explicitly.
+Publish only after `scripts/check-publish-gates.sh` passes. Replace every `{{PLACEHOLDER}}`; if a step was not run, say so explicitly. Release in order: Lean Zulip, Hacker News, r/accelerate, X. If the build fails, use the failure report first—before commentary, jokes, or speculation.
 
 ## Short post: all scheduled checks passed
 
@@ -27,6 +27,8 @@ Publish only after checking the downloaded bundle. Replace every `{{PLACEHOLDER}
 > First observed failure: {{PRECISE_FAILURE}}. This is {{KNOWN_TO_BE_PROOF_FAILURE_OR_INFRA_FAILURE_OR_UNKNOWN}}; I am not generalizing it beyond the failed command.
 >
 > Reproduction bundle and full logs: {{EVIDENCE_URL}}
+
+This failure report has no independent-confirmation gate. Publish it promptly once the logs are safely hosted and personally identifying secrets have been checked; accuracy still outranks speed.
 
 ## Long-form verification note
 
@@ -63,4 +65,3 @@ This is an independent reproducibility check of the pinned Lean artifacts. A suc
 ### Reproduce
 
 {{LINK_TO_THIS_KIT_AND_EVIDENCE}}. Provision, run, download, verify `SHA256SUMS`, then destroy the billed VM. No `lake update` is used.
-
