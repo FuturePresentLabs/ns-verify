@@ -1,0 +1,43 @@
+name: verify-evidence
+
+# What this can and cannot do, stated plainly:
+#
+# GitHub-hosted runners are 4 vCPU / 16 GiB RAM / 14 GiB disk with a 6-hour job
+# cap. The verification these bundles record peaked at ~33 GiB resident and used
+# ~70 GiB of disk across several hours on a 16 vCPU / 128 GiB machine. Re-running
+# the Lean kernel over Mathlib is therefore out of reach here, and this workflow
+# does not pretend otherwise.
+#
+# What it does instead, on every push and daily: re-check the committed evidence.
+# Manifests generated on the verifying machine must still verify, every recorded
+# step must have exited 0, every audited theorem must report exactly the standard
+# axiom trio, no sorryAx may appear, each bundle must carry a reviewed audit with
+# no placeholders, and the bundles together must cover all ten required steps.
+#
+# To reproduce the actual verification, see `make run` and docs/RUNBOOK.md.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '17 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evidence:
+    name: Re-check committed evidence
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Tool versions
+        run: |
+          sha256sum --version | head -1
+          jq --version
+
+      - name: Check committed evidence
+        run: scripts/check-evidence.sh

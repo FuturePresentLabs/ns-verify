@@ -1,0 +1,38 @@
+#cloud-config
+package_update: true
+package_upgrade: false
+packages:
+  - build-essential
+  - ca-certificates
+  - curl
+  - git
+  - jq
+  - rsync
+  - time
+  - unzip
+  - zstd
+
+users:
+  - default
+  - name: verifier
+    gecos: Lean verifier
+    groups: [sudo]
+    shell: /bin/bash
+    sudo: ALL=(root) NOPASSWD:/opt/lean-verifier/verify.sh *,/bin/systemctl status lean-verification,/bin/journalctl -u lean-verification *
+    lock_passwd: true
+    ssh_authorized_keys:
+      - ${ssh_public_key}
+
+write_files:
+  - path: /opt/lean-verifier/verify.sh
+    owner: root:root
+    permissions: '0755'
+    encoding: b64
+    content: ${verify_script}
+runcmd:
+  - [mkdir, -p, /var/lib/lean-verification/results, /var/lib/lean-verification/work]
+  - [chown, -R, verifier:verifier, /var/lib/lean-verification]
+  - [bash, -lc, "curl --fail --location --silent --show-error https://github.com/leanprover/elan/releases/download/v4.2.3/elan-x86_64-unknown-linux-gnu.tar.gz -o /tmp/elan.tar.gz"]
+  - [tar, -xzf, /tmp/elan.tar.gz, -C, /tmp]
+  - [su, -s, /bin/bash, -c, "/tmp/elan-init -y --no-modify-path --default-toolchain none", verifier]
+  - [su, -s, /bin/bash, -c, "/home/verifier/.elan/bin/elan --version", verifier]

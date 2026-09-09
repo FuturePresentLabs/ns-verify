@@ -1,0 +1,9 @@
+utc_started=2026-09-09T11:44:48+00:00
+hostname=lean-fluid-verifier
+kernel=Linux 6.8.0-124-generic #124-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 13:00:45 UTC 2026 x86_64 GNU/Linux
+cpu_count=16
+memory_kib=131904512
+disk_bytes=414921494528
+elan=elan 4.2.3 (b6cec7e10 2026-06-08)
+git=git version 2.43.0
+utc_finished=2026-09-09T14:27:57+00:00

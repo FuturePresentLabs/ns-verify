@@ -1,0 +1,50 @@
+{
+   "blockdevices": [
+      {
+         "name": "vda",
+         "size": "400G",
+         "type": "disk",
+         "mountpoints": [
+             null
+         ],
+         "children": [
+            {
+               "name": "vda1",
+               "size": "399G",
+               "type": "part",
+               "mountpoints": [
+                   "/"
+               ]
+            },{
+               "name": "vda14",
+               "size": "4M",
+               "type": "part",
+               "mountpoints": [
+                   null
+               ]
+            },{
+               "name": "vda15",
+               "size": "106M",
+               "type": "part",
+               "mountpoints": [
+                   "/boot/efi"
+               ]
+            },{
+               "name": "vda16",
+               "size": "913M",
+               "type": "part",
+               "mountpoints": [
+                   "/boot"
+               ]
+            }
+         ]
+      },{
+         "name": "vdb",
+         "size": "528K",
+         "type": "disk",
+         "mountpoints": [
+             null
+         ]
+      }
+   ]
+}
