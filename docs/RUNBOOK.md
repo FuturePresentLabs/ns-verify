@@ -98,7 +98,7 @@ doctl compute droplet list --tag-name ephemeral
 # Expected: no matching verifier Droplet
 ```
 
-Also confirm the DigitalOcean control panel has no remaining Droplet. If anything remains, run `make destroy`. Terraform state is local and contains infrastructure metadata; keep it private. The uploaded verification SSH-key resource is destroyed with the stack.
+Also confirm the DigitalOcean control panel has no remaining Droplet. If anything remains, run `make destroy` (it is intentionally non-interactive for emergency cleanup). Terraform state is local and contains infrastructure metadata; keep it private. The uploaded verification SSH-key resource is destroyed with the stack.
 
 ## Manual parity
 

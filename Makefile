@@ -42,4 +42,4 @@ download:
 	rsync -av --partial -e "ssh $(SSH_OPTS)" verifier@$$($(TF) output -raw ipv4_address):/var/lib/lean-verification/results/ results/
 
 destroy:
-	$(TF) destroy
+	$(TF) destroy -auto-approve
